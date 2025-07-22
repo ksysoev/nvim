@@ -1,15 +1,17 @@
 return {
-    "folke/snacks.nvim",
-    opts = {
-        explorer = {},
-        picker = {
-            sources = {
-                explorer = {
-                    hidden = true,
-                    ignored = true,
+    {
+        "folke/snacks.nvim",
+        opts = {
+            explorer = {},
+            picker = {
+                sources = {
+                    explorer = {
+                        hidden = true,
+                        ignored = true,
+                    },
                 },
             },
         },
     },
-    "ThePrimeagen/vim-be-good",
+    { "ThePrimeagen/vim-be-good" },
 }
